@@ -10,7 +10,8 @@ class ParqueaderoListComponent {
 angular.module('parqueaderoApp')
   .component('parqueaderoList', {
     templateUrl: 'app/parqueadero/parqueadero-list/parqueadero-list.html',
-    controller: ParqueaderoListComponent
+    controller: ParqueaderoListComponent,
+    controllerAs:'vm'
   });
 
 })();
